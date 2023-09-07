@@ -1,0 +1,18 @@
+:root {
+  --lightness: 50%; /* Initial værdi for lightness */
+}
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* hsl 230 angiver basisfarven for baggrunden, hvor 100% er max og lightness er 50% fra root*/
+  background-color: hsl(230, 100%, var(--lightness));
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+  color: white;
+}
